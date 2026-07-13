@@ -6,6 +6,7 @@
     <title>Todo App</title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -20,12 +21,14 @@
                 </div>
             </div>
             <div class="stats-numbers">
-                <p id="numbers">2 / 3</p>
+                <p id="numbers">0 / 0</p>
             </div>
         </div>
         <form action="">
-            <input type="text" placeholder="Enter your task">
-            <button type="submit">+</button>
+            <input type="text" id = "taskInput"placeholder="Enter your task">
+            <button id="newTask">
+            <i class="fa-solid fa-plus"></i>
+</button>
         </form>
 
         <ul class = "task-list"></ul>
